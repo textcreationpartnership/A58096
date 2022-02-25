@@ -1,0 +1,778 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The rational sceptist by a Person of honour.</title>
+            <author>Person of honour.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1690</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58096</idno>
+            <idno type="STC">Wing R306</idno>
+            <idno type="STC">ESTC R13293</idno>
+            <idno type="EEBO-CITATION">13586363</idno>
+            <idno type="OCLC">ocm 13586363</idno>
+            <idno type="VID">100549</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58096)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100549)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 473:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The rational sceptist by a Person of honour.</title>
+                  <author>Person of honour.</author>
+               </titleStmt>
+               <extent>[2], 19 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for J. H. ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1690.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-12</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-12</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100549:1"/>
+            <pb facs="tcp:100549:1"/>
+            <p>THE <hi>Rational</hi> SCEPTIST</p>
+            <p>
+               <hi>By a Perſon of Honour.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>J. H.</hi> in the Year MDCXC.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:100549:2"/>
+            <pb facs="tcp:100549:2"/>
+            <head>THE <hi>Rational</hi> SCEPTIST.</head>
+            <lg n="1">
+               <head>I.</head>
+               <l>UNleſs by Death, you never Knowledge gain;</l>
+               <l>(For, to increaſe your Knowledge, you muſt die:)</l>
+               <l>Tell me if all that Learning be not vain,</l>
+               <l>On which we Proudly in this Life relie?</l>
+            </lg>
+            <lg n="2">
+               <head>II.</head>
+               <l>Is not the Learning which we Knowledge call,</l>
+               <l>Our own but by Opinion, and in Part?</l>
+               <l>Not made intirely Certain, nor to All;</l>
+               <l>And is not Knowledge but diſputed Art?</l>
+            </lg>
+            <lg n="3">
+               <pb n="2" facs="tcp:100549:3"/>
+               <head>III.</head>
+               <l>And thô a Bad, yet 'tis a Forward Guide;</l>
+               <l>Who vexing at the ſhortneſs of the Day,</l>
+               <l>Do's to o'ertake ſwift Time, ſtill onward ride,</l>
+               <l>Whilſt we ſtill Follow, and ſtill Doubt our Way.</l>
+            </lg>
+            <lg n="4">
+               <head>IV.</head>
+               <l>A Guide, who every ſtep proceeds with Doubt,</l>
+               <l>Who gueſlingly her Progreſs do's begin;</l>
+               <l>And brings us Back where firſt ſhe led us Out,</l>
+               <l>To meet Dark Midnight at her Reſtleſs Inn.</l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>It is a Plummet to ſo ſhort a Line,</l>
+               <l>As ſounds no deeper then the Sounder's Eyes;</l>
+               <l>The People's Meteor, which not long can Shine,</l>
+               <l>Nor far above the Middle Region riſe.</l>
+            </lg>
+            <lg n="6">
+               <head>VI.</head>
+               <l>This Spy, from Schools gets ill Intelligence;</l>
+               <l>Where Art, impoſing Rules, of 't Gravely Errs;</l>
+               <l>She ſteals to Nature's Cloſet, and from thence</l>
+               <l>Brings nought but Undecipher'd Characters.</l>
+            </lg>
+            <lg n="7">
+               <head>VII.</head>
+               <l>She do's, like <hi>Indie</hi>'s laſt Diſcoverers, boaſt</l>
+               <l>Of Adding to Old Mapps; thô She has been</l>
+               <l>But Sailing by ſome Clear and Open Coaſt,</l>
+               <l>Where all is Woody, Wild, and Dark within.</l>
+            </lg>
+            <lg n="8">
+               <pb n="3" facs="tcp:100549:3"/>
+               <head>VIII.</head>
+               <l>Falſe Learning wanders Upward more and more:</l>
+               <l>Knowledge (for ſuch there is, in ſome degree)</l>
+               <l>Still vainly, like the Eagle, loves to Soar;</l>
+               <l>Thô it can never to the Higheſt ſee.</l>
+            </lg>
+            <lg n="9">
+               <head>IX.</head>
+               <l>For Error's Miſts do bound the Spirits ſight,</l>
+               <l>As Clouds (which make Earth's Arched Roof ſeem low</l>
+               <l>Reſtrain the Bodies Eyes; and ſtill when Light</l>
+               <l>Grows clearer upwards, Heav'n muſt higher ſhow.</l>
+            </lg>
+            <lg n="10">
+               <head>X.</head>
+               <l>And as good men, whoſe Minds towards Godhead riſe,</l>
+               <l>Take Heav'ns height higher then they can expreſs;</l>
+               <l>So from that Height, they Lower Things deſpiſe,</l>
+               <l>And of't contract Earth Littleneſs to Leſs:</l>
+            </lg>
+            <lg n="11">
+               <head>XI.</head>
+               <l>Of this Forbidden Fruit, ſince we but gain</l>
+               <l>A Taſte, by which we only Hungry grow;</l>
+               <l>Wee meerly Toil, to find our Studies Vain,</l>
+               <l>And truſt to Schools, for what they cannot Know.</l>
+            </lg>
+            <lg n="12">
+               <head>XII.</head>
+               <l>If Knowledge be the Coin of Souls, 'tis ſet</l>
+               <l>Above the Standard of each Common Reign;</l>
+               <l>And like a Medal of <hi>GOD</hi>'s Cabinet,</l>
+               <l>Is ſeldom ſhown, and ſoon put up again,</l>
+            </lg>
+            <lg n="13">
+               <pb n="4" facs="tcp:100549:4"/>
+               <head>XIII.</head>
+               <l>For thô in one Bleſt Age much Sway it bears;</l>
+               <l>Yet to the Next, it of't becomes Unknown;</l>
+               <l>Unleſs, like long hid Metals, it appears</l>
+               <l>In Counterfeits, and for Deceit be ſhown.</l>
+            </lg>
+            <lg n="14">
+               <head>XIV.</head>
+               <l>If Heav'n with Knowledge did ſome One indue,</l>
+               <l>With more then the Experience of the Dead;</l>
+               <l>To teach the Living more than Life e'er knew</l>
+               <l>In Schools, where all Succeſſion may be bred:</l>
+            </lg>
+            <lg n="15">
+               <head>XV.</head>
+               <l>Then as in Court, meer Strangers baſhfully</l>
+               <l>At firſt their Walk toward private Doors begin;</l>
+               <l>But bolder grow, when thoſe they open ſpy,</l>
+               <l>And being entred, beckon others in.</l>
+            </lg>
+            <lg n="16">
+               <head>XVI.</head>
+               <l>So to his Studious Cell (which wou'd appear</l>
+               <l>Like Nature's Privy Lodging) my Addreſs</l>
+               <l>I firſt by ſtealth wou'd make, but entring there,</l>
+               <l>I ſhou'd grow Bold, and give to All acceſs.</l>
+            </lg>
+            <lg n="17">
+               <head>XVII.</head>
+               <l>Then to her Secret Nurs'ry wou'd proceed,</l>
+               <l>And thither bring the World, to judg how She</l>
+               <l>Firſt Cauſes and Times Infancy did breed:</l>
+               <l>For Knowledge ſhou'd, ſince Good, to all be free.</l>
+            </lg>
+            <lg n="18">
+               <pb n="5" facs="tcp:100549:4"/>
+               <head>XVIII.</head>
+               <l>If Knowledge muſt, as Evil, hidden lie;</l>
+               <l>Then We, it's Object (Nature) ſeem to blame;</l>
+               <l>And whilſt we baniſh Knowledge as a Spy,</l>
+               <l>We but hide Nature, as we cover Shame:</l>
+            </lg>
+            <lg n="19">
+               <head>XIX.</head>
+               <l>For if our Object (Nature) be Correct;</l>
+               <l>Bold Knowledge then a free Spectator is,</l>
+               <l>And not a Spy; ſince Spies we ſcarce Suſpect,</l>
+               <l>Or Fear, but where their Objects are <gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ſs.</l>
+            </lg>
+            <lg n="20">
+               <head>XX.</head>
+               <l>In gathering Knowledge from the Sacred Tree,</l>
+               <l>I wou'd not Snatch in Haſte the Fruit Below,</l>
+               <l>But rather Climb, like thoſe who Curious be,</l>
+               <l>And Boldly Taſte that which does Higher grow.</l>
+            </lg>
+            <lg n="21">
+               <head>XXI.</head>
+               <l>For Knowledge wou'd her Proſpect take in Height;</l>
+               <l>'Tis God's lov'd <hi>EAGLET,</hi> bred by him to Fly;</l>
+               <l>Thô with Weak Eyes, ſtill upward at the Light,</l>
+               <l>And may Soar ſhort, but cannot Soar too high.</l>
+            </lg>
+            <lg n="22">
+               <head>XXII.</head>
+               <l>Thô Life, ſince Finite, has no ill Excuſe,</l>
+               <l>For being but in Finite Objects Learn'd;</l>
+               <l>Yet ſure the Soul was made for little Uſe,</l>
+               <l>Unleſs it be in Infinites Concern'd.</l>
+            </lg>
+            <lg n="23">
+               <pb n="6" facs="tcp:100549:5"/>
+               <head>XXIII.</head>
+               <l>Speak then ſuch things of Heav'n, ſince Studious Minds</l>
+               <l>Seem Travailing, and your's Prepares to go,</l>
+               <l>As mine may wiſh the Journey, when It finds</l>
+               <l>That your's do's Heav'n, her Native Country, know.</l>
+            </lg>
+            <lg n="24">
+               <head>XXIV.</head>
+               <l>Tell if you found your Faith, ere you it ſought?</l>
+               <l>Or cou'd it Spring ere Reaſon was full Blown?</l>
+               <l>Or cou'd it Learn, till by your Reaſon Taught</l>
+               <l>To know it ſelf, or be by others known?</l>
+            </lg>
+            <lg n="25">
+               <head>XXV.</head>
+               <l>When Men have ſeveral Faiths, to find the True,</l>
+               <l>We only can the Aid of Reaſon uſe;</l>
+               <l>'Tis Reaſon ſhews us which we ſhou'd Eſchew,</l>
+               <l>When by Compariſon we learn to Chuſe.</l>
+            </lg>
+            <lg n="26">
+               <head>XXVI.</head>
+               <l>But thô we then on Reaſon muſt Rely,</l>
+               <l>Where Men to ſeveral Faiths their Minds diſpoſe,</l>
+               <l>Yet, after Reaſon's Choice, the Schools are ſhy</l>
+               <l>To let it judge the very Faith it Choſe.</l>
+            </lg>
+            <lg n="27">
+               <head>XXVII.</head>
+               <l>How e'er 'tis call'd to Conſtrue the Records</l>
+               <l>Of Faith's Dark Charter, wrapt in Sacred Writ;</l>
+               <l>And is the only Judge even of thoſe Words,</l>
+               <l>By which Faith Claims that Reaſon ſhou'd ſubmit.</l>
+            </lg>
+            <lg n="28">
+               <pb n="7" facs="tcp:100549:5"/>
+               <head>XXVIII.</head>
+               <l>Since Holy Text bids Faith to comprehend</l>
+               <l>Such Myſteries, as Nature may ſuſpect;</l>
+               <l>And Faith muſt Reaſon, as her Guide Attend,</l>
+               <l>Leaſt She miſtake what Scripture doth direct.</l>
+            </lg>
+            <lg n="29">
+               <head>XXIX.</head>
+               <l>Since from the Souls far Country Heav'n, <hi>God</hi> ſent</l>
+               <l>His Law, (an Embaſſy to few Reveal'd)</l>
+               <l>Which did thoſe good Conditions Repreſent,</l>
+               <l>Of our Eternal Peace, e'er it was Seal'd:</l>
+            </lg>
+            <lg n="30">
+               <head>XXX.</head>
+               <l>Since to Remote Embaſſadours are given</l>
+               <l>Interpreters, when they with Kings Confer;</l>
+               <l>Since to that Law, <hi>God</hi>'s Embaſſy from Heav'n,</l>
+               <l>Our Reaſon ſerves as an Interpreter:</l>
+            </lg>
+            <lg n="31">
+               <head>XXXI.</head>
+               <l>Since Juſtly Clients Pay that Judge and Awe,</l>
+               <l>Who Laws loſt Sence Interprets, and Reſtores;</l>
+               <l>Yet Judges are no more above the Law,</l>
+               <l>Then Truchmen are above Embaſſadours:</l>
+            </lg>
+            <lg n="32">
+               <head>XXXII.</head>
+               <l>Since Reaſon as a Judge, the Tryal hath</l>
+               <l>Of differing Faiths, by Adverſe Pens Perplext;</l>
+               <l>Why is not Reaſon reckon'd above Faith,</l>
+               <l>Thô not above her Law, the Sacred Text?</l>
+            </lg>
+            <lg n="33">
+               <pb n="8" facs="tcp:100549:6"/>
+               <head>XXXIII.</head>
+               <l>If Reaſon has ſuch Worth, why ſhou'd She ſtill</l>
+               <l>Attend Below, whilſt Faith do's Upward Climb?</l>
+               <l>Yet Common Faith ſeems but Unſtudied Will;</l>
+               <l>And Reaſon calls Unſtudied Will a Crime.</l>
+            </lg>
+            <lg n="34">
+               <head>XXXIV.</head>
+               <l>Slave Reaſon, ev'n at Home, in Priſon lies!</l>
+               <l>And by Religion is ſo Watch'd and Aw'd,</l>
+               <l>That thô the Priſon Windows, both her Eyes,</l>
+               <l>Stand open, yet ſhe ſcarce dare's look Abroad.</l>
+            </lg>
+            <lg n="35">
+               <head>XXXV.</head>
+               <l>Faith thinks that Reaſon is her Adverſe Spy;</l>
+               <l>Yet Reaſon is thrô Doubtful Way her Guide;</l>
+               <l>But like a Scout brought in from th' Enemy,</l>
+               <l>Muſt, when She Guides her, Bound and Guarded Ride.</l>
+            </lg>
+            <lg n="36">
+               <head>XXXVI.</head>
+               <l>Or if by Faith, not as her Judge, Diſdain'd;</l>
+               <l>Nor, as her Guide, ſuſpected; She is found</l>
+               <l>In every Sentence Juſt to the Arraign'd,</l>
+               <l>And Guides her right, Unguarded and Unbound:</l>
+            </lg>
+            <lg n="37">
+               <head>XXXVII.</head>
+               <l>Why then ſhou'd ſuch a Judge be ſtill deny'd</l>
+               <l>T'Examine (ſince Faith's Claims ſtill Publique are)</l>
+               <l>Her Secret Pleas? Or, Why ſhou'd ſuch a Guide</l>
+               <l>Be hindred, where Faith goes, to go as far?</l>
+            </lg>
+            <lg n="38">
+               <pb n="9" facs="tcp:100549:6"/>
+               <head>XXXVIII.</head>
+               <l>And yet, as one Bred Humbly, who wou'd ſhow</l>
+               <l>His Monarch's Pallace to a Stranger, goes</l>
+               <l>But to the Gates; as if to let him know</l>
+               <l>Where ſo much Greatneſs dwells, not what it do's;</l>
+            </lg>
+            <lg n="39">
+               <head>XXXIV.</head>
+               <l>Whilſt ſtrait the Stranger enters Undeny'd,</l>
+               <l>As one whoſe Breeding has much Bolder been;</l>
+               <l>So Reaſon, thô ſhe were at firſt Faiths Guide</l>
+               <l>To Heav'n, yet waits Without, when Faith goes In.</l>
+            </lg>
+            <lg n="40">
+               <head>XL.</head>
+               <l>But, thô at Court Bold Strangers Enter, where</l>
+               <l>The Way is to their Baſhful Guide forbid;</l>
+               <l>Yet he, when they come back, is apt to Hear,</l>
+               <l>And Ask them, what the King then ſaid, and did.</l>
+            </lg>
+            <lg n="41">
+               <head>XLI.</head>
+               <l>And ſo, thô Reaſon (which is firſt Faith?s Guide</l>
+               <l>To <hi>GOD</hi>) where Faith has always Entrance free,</l>
+               <l>As Nature's Stranger; thô 'tis then deny'd</l>
+               <l>To Reaſon, as of Nature's Family.</l>
+            </lg>
+            <lg n="42">
+               <head>XLII.</head>
+               <l>Yet ſtrait, when from her Viſion and her Trance,</l>
+               <l>Faith do's Return, then Reaſon quits that Awe</l>
+               <l>(Impos'd by Prieſts upon our Ignorance)</l>
+               <l>And asks, <hi>How much She of the Godhead ſaw?</hi>
+               </l>
+            </lg>
+            <lg n="43">
+               <pb n="10" facs="tcp:100549:7"/>
+               <head>XLIII.</head>
+               <l>But as a Prudent Monarch ſeems alone</l>
+               <l>Retir'd, as if Conceal'd ev'n to his Court;</l>
+               <l>To Subjects more in Power then Perſon known;</l>
+               <l>At Diſtance ſought, and found but by Report;</l>
+            </lg>
+            <lg n="44">
+               <head>XLIV.</head>
+               <l>Yet, as Court-Strangers, getting ſome Acceſs,</l>
+               <l>Are apt to tell at Home more then they ſaw;</l>
+               <l>Thô then, their Pencil draws Court-Greatneſs Leſs,</l>
+               <l>Then that which Truth at nearer View do's draw:</l>
+            </lg>
+            <lg n="45">
+               <head>XLV.</head>
+               <l>So <hi>GOD</hi> hath Veil'd his Power with Myſteries,</l>
+               <l>Ev'n to his Court in Heav'n; &amp; Faith comes there,</l>
+               <l>Not Prying with a Strangers Curious Eyes,</l>
+               <l>But like a Plain Implicite Worſhipper.</l>
+            </lg>
+            <lg n="46">
+               <head>XLVI.</head>
+               <l>So Faith (which is ev'n taught an Ignorance,</l>
+               <l>For She by Knowledge quits her Dignity)</l>
+               <l>Do's leſſen Godhead, which She wou'd Advance,</l>
+               <l>By telling more of <hi>GOD</hi> then She can ſee.</l>
+            </lg>
+            <lg n="47">
+               <head>XLVII.</head>
+               <l>Our Souls, but like Unhappy Strangers, come</l>
+               <l>From Heav'n, their Country, to this World's bad Coaſt;</l>
+               <l>They Land, and ſtrait are backward bound for home;</l>
+               <l>And many are in Storms of Paſſion loſt!</l>
+            </lg>
+            <lg n="48">
+               <pb n="11" facs="tcp:100549:7"/>
+               <head>XLVIII.</head>
+               <l>They long with Danger Sail thrô Life's Vext Seas,</l>
+               <l>In Bodies, as in Veſſels full of Leaks;</l>
+               <l>Walking in Veines, their Narrow Galleries,</l>
+               <l>Shorter then Walks of Seamen on the Decks.</l>
+            </lg>
+            <lg n="49">
+               <head>XLIX.</head>
+               <l>Art's Card is by her Pilot Faith, Reſus'd;</l>
+               <l>Her Courſe by Gueſs She ever forward bears;</l>
+               <l>Reaſon her Rudder is, but never Us'd,</l>
+               <l>Becauſe tow'rd Heav'n She ne'er with Reaſon Steers;</l>
+            </lg>
+            <lg n="50">
+               <head>L.</head>
+               <l>For as a Pilot, ſure of fair Trade Winds,</l>
+               <l>The Helm in all the Voyage never Hands,</l>
+               <l>But Ties it up; So Reaſon's Helm ſhe binds,</l>
+               <l>And Boldly cloſe for Heav'ns Safe Harbour ſtands:</l>
+            </lg>
+            <lg n="51">
+               <head>LI.</head>
+               <l>In Reaſon's place Tradition do's her lead,</l>
+               <l>And that Preſumptuous Antiquary makes</l>
+               <l>Strong Laws of Weak Opinions of the Dead;</l>
+               <l>And what was Common Coin, for Medals takes.</l>
+            </lg>
+            <lg n="52">
+               <head>LII.</head>
+               <l>Tradition (Time's ſuſpected Regiſter)</l>
+               <l>Too of't Religion at her Tryal fails;</l>
+               <l>Inſtead of Knowledge, Teaches us to Err,</l>
+               <l>And wears out Truth's beſt Stories into Tales.</l>
+            </lg>
+            <lg n="53">
+               <pb n="12" facs="tcp:100549:8"/>
+               <head>LIII.</head>
+               <l>O why has ſuch a Guide Faith's Progreſs laid?</l>
+               <l>Or can our Faith, ill Guided, Guide us well?</l>
+               <l>Or had She not Tradition's Mapps Survey'd,</l>
+               <l>How cou'd She aim to ſhew us Heav'n and Hell?</l>
+            </lg>
+            <lg n="54">
+               <head>LIV.</head>
+               <l>If Faith with Reaſon never do's Adviſe,</l>
+               <l>Nor yet Tradition leads her, She is then</l>
+               <l>From Heav'n Inſpir'd, and Secretly grows Wiſe</l>
+               <l>Above the Schools, we know not How, nor When.</l>
+            </lg>
+            <lg n="55">
+               <head>LV.</head>
+               <l>For cou'd we know how Faith's bold Truſt is wrought,</l>
+               <l>What are thoſe Viſions we in Sleep diſcern;</l>
+               <l>And when by Heav'ns ſhort Whiſpers we are Taught</l>
+               <l>More then the Watchful Schools cou'd ever Learn:</l>
+            </lg>
+            <lg n="56">
+               <head>LVI.</head>
+               <l>Then ſoon Faith's Ignorance, which now do's ſeem</l>
+               <l>A Serious Wonder to Philoſophy,</l>
+               <l>Wou'd fall from Value, to a Low Eſteem,</l>
+               <l>And not a Wonder, nor a Virtue be;</l>
+            </lg>
+            <lg n="57">
+               <head>LVII.</head>
+               <l>But thô we cannot gueſs the Manner how</l>
+               <l>Grace firſt is Secretly in ſmall Seeds Sown;</l>
+               <l>Yet Fruit, thô Seed lies hid, in View do's Grow;</l>
+               <l>And Faith, the Fruit of Grace, muſt needs be known.</l>
+            </lg>
+            <lg n="58">
+               <pb n="13" facs="tcp:100549:8"/>
+               <head>XVIII.</head>
+               <l>Faith Lights us thrô the Dark to Deity,</l>
+               <l>Whilſt without Sight we Witneſs that She ſhows;</l>
+               <l>More <hi>GOD</hi> then in his Works, our Eyes can ſee;</l>
+               <l>Thô none but by thoſe Works the Godhead knows:</l>
+            </lg>
+            <lg n="59">
+               <head>LIX.</head>
+               <l>If You have Faith, then You we muſt Adore;</l>
+               <l>Since Faith do's rather ſeem Inſpir'd, then Taught;</l>
+               <l>And Men Inſpir'd, have of the Godhead more</l>
+               <l>Then Nature ever Found, or Reaſon Sought:</l>
+            </lg>
+            <lg n="60">
+               <head>LX.</head>
+               <l>To You, whom Inſpiration Sanctifies,</l>
+               <l>I come with Doubts, the Mind's Defect of Light;</l>
+               <l>As to Apoſtles, ſome with Darkned Eyes,</l>
+               <l>Came to receive by Miracle their Sight:</l>
+            </lg>
+            <lg n="61">
+               <head>LXI.</head>
+               <l>And when I thus Preſume, you are with more</l>
+               <l>Then Nature's Publick Wealth, by Faith Indu'd;</l>
+               <l>Or think you ſhou'd Reveal your Secret Store;</l>
+               <l>You cannot judge my Bold Opinion Rude.</l>
+            </lg>
+            <lg n="62">
+               <head>LXII.</head>
+               <l>Ev'n Faith (not proving what it wou'd Aſſure)</l>
+               <l>But Bold Opinion ſeems to Reaſons View;</l>
+               <l>And ſince the Blind brought Faith to help their Cure,</l>
+               <l>I bring Opinion, Reaſon's Faith, to you.</l>
+            </lg>
+            <lg n="63">
+               <pb n="14" facs="tcp:100549:9"/>
+               <head>LXIII.</head>
+               <l>We, for their Knowledge, Men Inſpir'd Adore;</l>
+               <l>Not for thoſe Truths they hide, but thoſe they ſhow;</l>
+               <l>And Vulgar Reaſon finds, that none knows more<g ref="char:punc">▪</g>
+               </l>
+               <l>Then that which he can make another know.</l>
+            </lg>
+            <lg n="64">
+               <head>LXIV.</head>
+               <l>Then tell me firſt, If Nature muſt forbear</l>
+               <l>To Ask, Why ſtill She muſt remain in Doubt?</l>
+               <l>A Darkneſs, which do's much like Hell appear,</l>
+               <l>Where all may Enter In, and none get Out.</l>
+            </lg>
+            <lg n="65">
+               <head>LXV.</head>
+               <l>Thus we at once are Bidden and Forbid;</l>
+               <l>Charg'd to make <hi>GOD</hi> the Object of the Mind;</l>
+               <l>Then hindred from it, ſince He is ſo Hid,</l>
+               <l>As we but Seek, that which we cannot Find:</l>
+            </lg>
+            <lg n="66">
+               <head>LXVI.</head>
+               <l>Our Glimering Knowledge, like the Wandring Light</l>
+               <l>In Feuns, do's to Uncertainties Direct</l>
+               <l>The Weary Progreſs of our Uſeleſs Sight,</l>
+               <l>And only makes us Able to Suſpect.</l>
+            </lg>
+            <lg n="67">
+               <head>LXVII.</head>
+               <l>Or, if Inquiring Minds are not kept in,</l>
+               <l>But by ſome few, whom Schools to Power Advance,</l>
+               <l>Who, ſince Themſelves ſee Short, wou'd make it Sin,</l>
+               <l>When others look beyond their Ignorance:</l>
+            </lg>
+            <lg n="68">
+               <pb n="15" facs="tcp:100549:9"/>
+               <head>LXVIII.</head>
+               <l>If as God's Students, we have leave to Learn</l>
+               <l>His Truths, why do's his Text oft need Debate?</l>
+               <l>Why, as thrô Miſts, muſt we his Law diſcern,</l>
+               <l>Since Laws ſeems Snares, when they are Intricate?</l>
+            </lg>
+            <lg n="69">
+               <head>LXIX.</head>
+               <l>They who believe Man's Reaſon is too ſcant;</l>
+               <l>And that it do's the War of Writers cauſe;</l>
+               <l>Infer that <hi>GOD</hi>'s Great Works Proportion want,</l>
+               <l>Who Taught our Reaſon, &amp; did Write thoſe Laws.</l>
+            </lg>
+            <lg n="70">
+               <head>LXX.</head>
+               <l>His Text, the Soul's Record, appears to ſome,</l>
+               <l>(Thô thence our Souls hold their Inheritance)</l>
+               <l>Obſcure by growing Old, and ſeems to come,</l>
+               <l>Not by Conſignment to Us, but by Chance.</l>
+            </lg>
+            <lg n="71">
+               <head>LXXI.</head>
+               <l>
+                  <hi>LAW</hi> (which is Reaſon made Authority)</l>
+               <l>Allows Conſignment to be Good and Clear;</l>
+               <l>Not when, like this, it does in Copies lie,</l>
+               <l>But in the known Original appear.</l>
+            </lg>
+            <lg n="72">
+               <head>LXXII.</head>
+               <l>Cou'd this Record be too Authentick made?</l>
+               <l>Or why (when <hi>GOD</hi> was Faſhion'd to our Eyes,</l>
+               <l>And very Forms of Humane Laws Obey'd)</l>
+               <l>Did He not Sign it, but by Deputies?</l>
+            </lg>
+            <lg n="73">
+               <pb n="16" facs="tcp:100549:10"/>
+               <head>LXXIII.</head>
+               <l>Or why, when he was Man, did he not Deign</l>
+               <l>Wholly to Write this Text with his own Hand?</l>
+               <l>Or why (as if all Written Rolls were Vain)</l>
+               <l>Did he ne'er Write but Once, and but in Sand?</l>
+            </lg>
+            <lg n="74">
+               <head>LXXIV.</head>
+               <l>Tell me why Heav'n at firſt did ſuffer Sin,</l>
+               <l>Letting Seed Grow, which it had never Sown?</l>
+               <l>Why, when the Soul's firſt Feaver did begin,</l>
+               <l>Was it not Cur'd, which now a Plague is grown?</l>
+            </lg>
+            <lg n="75">
+               <head>LXXV.</head>
+               <l>Why did not Heav'n's Prevention Sin Reſtrain?</l>
+               <l>Or is not Power's Permiſſion a Conſent?</l>
+               <l>Which is in Kings as much as to Ordain;</l>
+               <l>And Ills Ordain'd are free from Puniſhment.</l>
+            </lg>
+            <lg n="76">
+               <head>LXXVI.</head>
+               <l>And ſince no Crime cou'd be, ere Laws were Found;</l>
+               <l>Laws Dearly Taught Us how to know Offence;</l>
+               <l>Had Laws not been, we never had been Blam'd,</l>
+               <l>For not to know we Sin, is Innocence.</l>
+            </lg>
+            <lg n="77">
+               <head>LXXVII.</head>
+               <l>Since Child-hood was not Starv'd, but rather more</l>
+               <l>Then finely Fed, ſo ſweet were Pleaſures made</l>
+               <l>That Nouriſh'd it: For Sweet is Luſt of Power,</l>
+               <l>And Sweeter, Beauty, which hath Power betray'd.</l>
+            </lg>
+            <lg n="78">
+               <pb n="17" facs="tcp:100549:10"/>
+               <head>LXXVIII.</head>
+               <l>Sin, which at fulleſt Growth is Childiſh ſtill,</l>
+               <l>Wou'd but for Pleaſure's Company decay;</l>
+               <l>As Sickly Children Thrive, that have their Will;</l>
+               <l>But quickly Languiſh, being kept from Play.</l>
+            </lg>
+            <lg n="79">
+               <head>LXXIX.</head>
+               <l>Since only Pleaſure breeds Sin's Appetite;</l>
+               <l>Which ſtill by Pleaſant Objects is Infus'd;</l>
+               <l>Since 'tis Provok'd to what it do's Commit,</l>
+               <l>And Ills Provok'd, may Plead to be Excus'd:</l>
+            </lg>
+            <lg n="80">
+               <head>LXXX.</head>
+               <l>Why ſhou'd our Sins, which not a Moment laſt,</l>
+               <l>(For, to Eternity compar'd, Extent</l>
+               <l>Of Life, is, ere we Name it, ſtopt and paſt;)</l>
+               <l>Receive a Doom of Endleſs Puniſhment?</l>
+            </lg>
+            <lg n="81">
+               <head>LXXXI.</head>
+               <l>If Souls to Hell's Vaſt Priſon never come,</l>
+               <l>Committed for their Crimes, but Deſtin'd be,</l>
+               <l>Like Bond-men Born, whoſe Priſon is their Home,</l>
+               <l>And long ere they were Bound, cou'd not be Free:</l>
+            </lg>
+            <lg n="82">
+               <head>LXXXII.</head>
+               <l>Then hard is Deſtiny's Dark Law, whoſe Text</l>
+               <l>We are forbid to Read, yet muſt Obey;</l>
+               <l>And Reaſon with her Uſeleſs Eyes is Vext,</l>
+               <l>Which ſtrive to Guide her where they ſee no Way.</l>
+            </lg>
+            <lg n="83">
+               <pb n="18" facs="tcp:100549:11"/>
+               <head>LXXXIII.</head>
+               <l>Do's it our Reaſon's Mutinies Appeaſe,</l>
+               <l>To ſay, The Potter may his own Clay Mould</l>
+               <l>To every Uſe, or in what Shape he Pleaſe,</l>
+               <l>At firſt not Counſel'd, nor at laſt Controul'd?</l>
+            </lg>
+            <lg n="84">
+               <head>LXXXIV.</head>
+               <l>Power's Hand can neither Eaſie be, nor Strict,</l>
+               <l>To Lifeleſs Clay, which Eaſe nor Torment knows;</l>
+               <l>And where it cannot Favour nor Afflict,</l>
+               <l>It neither Juſtice nor Injuſtice ſhows.</l>
+            </lg>
+            <lg n="85">
+               <head>LXXXV.</head>
+               <l>But Souls have Life, and Life Eternal too;</l>
+               <l>Therefore if Doom'd before they can Offend,</l>
+               <l>It ſeems to ſhew what Heav'nly Power Can Do;</l>
+               <l>But do's not in that Deed that Power Commend,</l>
+            </lg>
+            <lg n="86">
+               <head>LXXXVI.</head>
+               <l>That we are Deſtin'd after Death to more</l>
+               <l>Then Reaſon thinks Due Puniſhment for Sins,</l>
+               <l>Seems Poſſible, becauſe in Life, before</l>
+               <l>We know to Sin, our Puniſhment begins.</l>
+            </lg>
+            <lg n="87">
+               <head>LXXXVII.</head>
+               <l>Why elſe do Infants, with Inceſſant Cries,</l>
+               <l>Complain of Secret Harm as ſoon as Born?</l>
+               <l>Or why are they, in Citie's Deſtinies,</l>
+               <l>So oft by War from Raviſh'd Mothers Torn?</l>
+            </lg>
+            <lg n="88">
+               <pb n="19" facs="tcp:100549:11"/>
+               <head>LXXXVIII.</head>
+               <l>Do's not Belief of being Deſtin'd, draw</l>
+               <l>Our Reaſon to Preſumption or Deſpair?</l>
+               <l>If Deſtiny be not (like Humane Law)</l>
+               <l>To be Repeal'd, what is the Uſe of Prayer?</l>
+            </lg>
+            <lg n="89">
+               <head>LXXXIX.</head>
+               <l>Why ev'n to All was Pray'r Enjoyn'd, ſince thoſe</l>
+               <l>Whom <hi>GOD</hi> (whoſe Will ne'er Alters) did Elect,</l>
+               <l>Are ſure of Heav'n? And when we Pray, it ſhows</l>
+               <l>That we his Certainty of Will Suſpect?</l>
+            </lg>
+            <lg n="90">
+               <head>XC.</head>
+               <l>Thoſe who to Laſting Darkneſs Deſtin'd were,</l>
+               <l>Thô ſoon as Born they Pray, yet Pray too late;</l>
+               <l>Avoidleſs Ills we to no purpoſe Fear;</l>
+               <l>And None, when Fear is Paſt, will Supplicate.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
